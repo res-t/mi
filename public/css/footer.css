@@ -1,0 +1,151 @@
+.my_footer{
+    display: flex;
+    width: 100%;
+    height: 272px;
+  
+    background: #fff;
+}
+.my_content{
+    width: 1226px;
+    height: 272px;
+    margin: 0 auto;
+  
+}
+.my_baozhang{
+    width:1226px;
+    height: 80px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.my_baozhang>ul>li{
+    position: relative;
+    width: 242px;
+    height: 60px;
+    float: left;
+    list-style: none;
+    margin-top: 5px;
+    border-right: 1px solid #e0e0e0;
+}
+
+/**预约*/
+.my_img_size{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+.my_baozhang>ul>li>img:not(.my_img_size){
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.my_baozhang>ul>li>a{
+    position: absolute;
+    top: 20px;
+    color: #b0b0b0;
+}
+.my_baozhang>ul>li>a:hover{
+    color: #ff6700;
+}
+  /***/
+.my_helf{
+    width: 100%;
+    height: 192px;
+    margin: 0 auto;
+    border-top: 1px solid #e0e0e0;
+}
+.my_helf>div:not(.my_phone400){
+    float: left;
+    width: 160px;
+    height: 112px;
+    /*border: 1px solid yellow;*/
+    margin-top: 40px;
+}
+.my_phone400{
+    width: 240px;
+    height: 112px;
+    float: left;
+    margin-top:40px;
+    border-left: 1px solid #e0e0e0 ;
+    margin-left:25px;
+}
+.my_helf>div>a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.my_helf>div>a:hover{
+    color:#ff6700;
+}
+.my_helf>div>p{
+    color: #424242;
+    font-size: 14px;
+}
+.my_phone400>h3{
+    text-align: center;
+    color: #ff6700;
+}
+.my_phone400>p{
+    text-align: center;
+    font-size: 12px;
+    color: #424242;
+    margin-top: 5px;
+}
+.my_kefu{
+   display: block;
+   width: 120px;
+   height: 30px;
+   border: 1px solid #ff6700;
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 10px;
+   line-height: 2.5;
+}
+.my_kefu:hover{
+    background:#ff6700; 
+    color: #fff !important;
+}
+.site_info{
+    position: relative;
+    width: 1226px;
+    height: 166px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.site_info>div:first-child{
+    float: left;
+}
+.my_href>ul>li{
+    
+    float: left;
+    list-style: none;
+    margin-left:px;
+}
+.my_href>ul>li>a{
+    color: #757575;
+    font-size: 12px;
+    padding-left: 2px;
+}
+.my_href>ul>li>span{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.benanhao{
+  width: 1000px;
+  position: absolute;
+  top:20px;
+  left: 60px;
+  /*border:1px solid red*/
+}
+.benanhao>a,.benanhao>p{
+    color:#757575;
+    font-size: 12px;
+}
+.benanhao>a:hover{
+    color:#ff6700;
+}
+.benanhao>div{
+    margin-left: 30%;
+    margin-top: 30px;
+}

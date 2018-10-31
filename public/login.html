@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登陆</title>
+  <link rel="stylesheet" href="css/login.css">
+  
+</head>
+<body>
+  <div class="header">
+    <a href="http://127.0.0.1:3000" class="logo">
+      <img src="http://127.0.0.1:3000/img/logo12.png" alt="">
+    </a>
+  </div>
+  <div class="bod">
+    <div class="layout" id="layout">
+      <div>
+        <div class="layout-div" id="log1">
+          <a href="#" class="now" id="zh">账号登陆</a>
+          <span>|</span>
+          <a href="#" id="sm">扫码登陆</a>
+        </div>
+      </div>
+      <!--账号登陆-->
+      <div class="inpu" id="inpu">
+        <div>
+          <input type="text" placeholder="邮箱/手机号码/小米ID" id="uname">
+        </div>
+        <div>
+          <input type="password" placeholder="密码">
+        </div>
+        <div>
+          <button id="btn_login">登陆</button>
+        </div>
+        <div class="fle">
+          <a href="#">手机短信登陆/注册</a>
+          <div>
+            <a href="#">立即注册</a>
+            <span>|</span>
+            <a href="#">忘记密码?</a>
+          </div>
+        </div>
+        <!--其他登陆方式-->
+        <fieldset class="bor">
+          <legend>其他方式登陆</legend>
+        </fieldset>
+        <div class="ico">
+          <a href="#">
+            <i></i>
+          </a>
+          <a href="#">
+            <i></i>
+          </a>
+          <a href="#">
+            <i></i>
+          </a>
+          <a href="#">
+            <i></i>
+          </a>
+        </div>
+      </div>
+      <!--扫码登陆-->
+      <div class="sma dis" id="sma">
+        <img src="http://127.0.0.1:3000/img/sma.jpg" alt="">
+        <p>
+          使用<span>小米商城APP</span>扫一扫
+        </p>
+        <p>
+          小米手机可打开「设置」>「小米帐号」扫码登录
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div style="text-align: center;">
+      <ul>
+        <li>
+          <a href="#" class="anow">简体</a>
+          |
+        </li>
+        <li>
+          <a href="#">繁体</a>
+          |
+        </li>
+        <li>
+          <a href="#">English</a>
+          |
+        </li>
+        <li>
+          <a href="#">常见问题</a>
+          |
+        </li>
+        <li>
+          <a href="#">隐私政策</a>
+        </li>
+      </ul>
+    </div>
+    <p class="beianhao">
+      小米公司版权所有-京ICP备10046444-
+      <a href="#" class="c">
+        <span>
+          <img src="http://127.0.0.1:3000/img/bq.png" alt="">
+        </span>
+        京公网安备11010802020134号
+      </a>
+      -京ICP证110507号
+    </p>
+  </div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

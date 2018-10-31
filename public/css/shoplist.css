@@ -1,0 +1,153 @@
+body {
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+}
+.products{
+    width: 100%;
+    height:2500px;
+    border: 1px solid red;
+    background: #f5f5f5
+}
+.container_title{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 40px;
+    color: #616161
+}
+.container_title>a{
+    color: #616161
+}
+.filter-box{
+    width: 100%;
+    height: 81px;
+    background: #fff;
+}
+.filter-list{
+    width: 1226px;
+    height: 45px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 20px !important;
+}
+.filter-list>li{
+    width: 175px;
+    height: 45px;
+    line-height: 3.5;
+    float: left;
+    list-style: none;
+    
+}
+.classification{
+    width: 72px !important;
+}
+.filter-list>li>a{
+    color: #616161
+}
+/*激活状态*/
+.active{
+    color: #ff6700 !important;
+}
+.filter-list>li>a:hover,.product-left>li>a:hover{
+    color: #ff6700;
+}
+/*order-list-box*/
+.product-content{
+    width: 100%;
+    height: 1956px;
+    border: 1px solid #333;
+}
+.order-list-box{
+    width: 1226px;
+    height: 80;
+    height: 20px;
+    margin: 20px auto;
+    overflow: hidden;
+    zoom: 1;
+}
+.product-left>li{
+    float: left;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border-left: 1px solid #c0bbbb;
+    list-style: none;
+}
+.product-left>li>a{
+    color: #616161;
+}
+.product-left{
+    float: left;
+}
+/**右侧 ul*/
+.product-right{
+    float: right;
+}
+.product-right>li{
+    float: left;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    list-style: none;
+    line-height:1.5;
+}
+.product-right>li>a{
+    color: #616161;
+}
+.product-right>li>a>span{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background: #fff;
+    vertical-align: middle;
+    border: 1px solid #a8a6a6;
+}
+.product-detail{
+    width: 1240px;
+    height: 1776px;
+    margin: 0 auto;
+}
+.my-product-list{
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 383px;
+    padding-top: 47px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    transition: box-shadow .5s linear;
+}
+.list-title{
+    margin-top: 40px;
+}
+.list-title>a{
+    color: #616161;
+}
+.list-price{
+    color: #ff6700
+}
+.list-img>a>img{
+    width: 34px;
+    height: 34px;
+    margin-top: 20px;
+}
+.list-img>a>img:hover{
+    border: 1px solid #ff6700;
+}
+.like-cart{
+    width: 100%;
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+.like-cart_img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.my_a_color{
+    color: #616161;
+}
