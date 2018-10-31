@@ -1,0 +1,204 @@
+body{
+    color: #333;
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微软雅黑","Pro", sans-serif;
+    background: #f8f5f593;
+
+}
+.register_block{
+    width: 854px;
+    height: 548px;
+    /*border: 1px solid red;*/
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.logo_img{
+    width: 786px;
+    height: 88px;
+   /* border: 1px solid red;*/
+    margin: 0 auto;
+    text-align: center
+}
+.register_title{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+.register_input_block{
+    width: 332px;
+    height: 302px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /*border: 1px solid red;*/
+}
+.input_title{
+    padding-bottom: 5px;
+    color: #333;
+    font-weight: normal;
+}
+.my_Country{
+    position: relative;
+   
+}
+#Country{
+   width: 328px;
+   height: 40px;
+   cursor:pointer ;
+   z-index: 10;
+}
+.xiala_btn{
+    display: block;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    border-left: 1px solid rgb(150, 148, 148);
+}
+.Country_detail,.phone_list{
+    width: 330px;
+    height: 270px;
+    border: 1px solid rgb(150, 148, 148);
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top: none;
+    z-index:100;
+    background: #fff;
+}
+.search,.search_phone{
+    width: 296px;
+    height: 34px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.my_Country_header,.my_phone_header{
+    background: #fcdecc;
+    color: #ef5b00 !important;
+    width: 313px;
+    height: 30px;
+    line-height: 2.5;
+}
+.Country_list>li,.phone_list>li{
+   width: 313px;
+   height: 40px;
+   border-bottom: 1px solid #e8e8e8;
+   padding-left: 10px;
+   line-height: 3;
+   cursor:pointer ;
+}
+.Country_list>li:hover,.phone_list>li:hover{
+    background: #f1eaea
+}
+.region_tip_text{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#phone_input{
+    width: 250px;
+    height: 40px;
+    float: right;
+
+
+   
+}
+.phone_block{
+    position: relative;
+}
+.phone_number{
+    width: 80px;
+    height: 45px;
+    position: absolute;
+    top:23px;left: 0;
+    line-height: 3.5;
+    padding-left: 5px;
+    border: 1px solid #e8e8e8;
+    border-right: none;
+    cursor:pointer ;
+    z-index: 40;
+   
+}
+
+.phone_num{
+    width: 330px;
+    height: 270px;
+    border: 1px solid rgb(192, 190, 190);
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    left: 0;
+    top: 46px;
+    border-top: none;
+   
+    background: #fff;
+}
+.phone_list>li>span{
+   float: right;
+   width: 40px;
+   height: 40px;
+   margin-right: 10px;
+}
+.phone_alert{
+    width: 200px;
+    height: 40px;
+}
+.phone_alert_font{
+    
+    font-size: 14px;
+    color: #f66;;
+}
+#btn{
+    width: 332px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 0px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 130px;
+    background: #ef5b00;
+    color: white;
+ 
+}
+#btn:hover{
+    background: #ff936a;
+}
+.xieyi{
+    text-align: center;
+    margin-top: 50px;
+}
+.xieyi>a{
+    color: #333;
+}
+.my_footer{
+    width: 300px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.my_footer>ul>li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+
+}
+.my_footer>ul>li>a{
+    color: #333;
+}
+.beianhao{
+    width: 800px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 160px;;
+}
+.c{
+    color: #333
+}

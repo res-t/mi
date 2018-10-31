@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="http://127.0.0.1:3000/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <title>小米注册</title>
+</head>
+<body>
+    <div class="register_block">
+        <div class="logo_img">
+            <img src="http://127.0.0.1:3000/img/logo.png" alt="">
+        </div>
+        <h4 class="register_title">注册小米账号</h4>
+        <div class="register_input_block">
+            <h4 class="input_title">国家/地区</h4>
+            <div class="my_Country">
+                <input type="text" id="Country" name="myCountry" value="  中国" readonly>
+                <a href="javascript:"><img src="http://127.0.0.1:3000/img/xiala.png" alt="" class="xiala_btn"></a>
+                <div class="Country_detail my_display">
+                    <input type="text" class="search">
+                    <div class="pl10 my_Country_header" >常用</div>
+                    <ul class="Country_list">
+                        <li>中国</li>
+                        <li>中国台湾</li>
+                        <li>中国香港</li>
+                        <li>Brazil</li>
+                        <li>India</li>
+                        <li>Indonesia</li>
+                        <li>MalaySia</li>
+                        <li>日本</li>
+                        <li>英国</li>
+                        <li>韩国</li>
+                    </ul>
+                </div>
+            </div>
+           <div class="region_tip_text">成功注册帐号后，国家/地区将不能被修改</div>
+           <div class="phone_block">
+                <h4 class="input_title mt20">手机号码</h4>
+                <input type="phone" name="myphone" id="phone_input" placeholder="请输入手机号码">
+                <div class="phone_number"> <span> +86 </span>
+                   <img src="http://127.0.0.1:3000/img/xiala2.png" alt="" style=" vertical-align: middle">
+                   <div class="phone_num my_display">
+                        <input type="text" class="search_phone">
+                        <div class="pl10 my_phone_header" >常用</div>
+                        <ul class="phone_list">
+                            <li>中国 <span>+86</span></li>
+                            <li>中国台湾 <span>+886</span></li>
+                            <li>中国香港 <span>+852</span></li>
+                            <li>Brazil <span>+55</span></li>
+                            <li>India <span>+91</span></li>
+                            <li>Indonesia <span>62</span></li>
+                            <li>MalaySia <span>+60</span></li>
+                            <li>日本 <span>+88</span></li>
+                            <li>英国 <span>+99</span></li>
+                            <li>韩国<span>+798</span></li>
+                        </ul>
+                   </div>
+                   <div class="phone_alert">
+                       <img src="http://127.0.0.1:3000/img/tishi.png" alt="" style=" vertical-align: middle">
+                       <span class="phone_alert_font">请输入手机号码</span>
+                   </div>
+                </div>
+                <input type="submit" id="btn" value="立即注册">
+           </div>
+        </div>
+        <div class="xieyi">
+            <img src="" alt="">
+            <img src="http://127.0.0.1:3000/img/zct.png" alt="" style=" vertical-align: middle">
+            注册帐号即表示您同意并愿意遵守小米 <a href="#"><b>用户协议</b></a> 和 <a href="#"><b>隐私政策 </b></a>
+        </div>
+    </div>
+    <div class="my_footer">
+            <ul>
+              <li>
+                <a href="#" class="anow">简体</a>
+                |
+              </li>
+              <li>
+                <a href="#">繁体</a>
+                |
+              </li>
+              <li>
+                <a href="#">English</a>
+                |
+              </li>
+              <li>
+                <a href="#">常见问题</a>
+                |
+              </li>
+              <li>
+                <a href="#">隐私政策</a>
+              </li>
+            </ul>
+    </div>
+    <div>
+        <p class="beianhao">
+            小米公司版权所有-京ICP备10046444-
+            <a href="#" class="c">
+                <span>
+                <img src="http://127.0.0.1:3000/img/bq.png" alt="">
+                </span>
+                京公网安备11010802020134号
+            </a>
+            -京ICP证110507号
+        </p>
+    </div>
+    <script>
+        //国家
+       $("#Country").mousedown(function(){
+        $('.Country_detail').removeClass("my_display")
+       })
+       $('.xiala_btn').mousedown(function(){
+        $('.Country_detail').removeClass("my_display")
+       })
+     $(".Country_list>li").click(function(){
+         var li =$(this);
+           $('#Country').val(li.text())
+           $('.Country_detail').addClass("my_display")
+     })
+     //s手机号
+     $('.phone_number').click(function(){
+         $('.phone_num').removeClass('my_display')
+     })
+     $(".phone_list>li").mousedown(function(){
+         var li =$(this);
+         li.parent().parent().addClass("my_display")
+           $('.phone_number>span').text(li.children("span").text());
+         
+           
+     })
+   
+    </script>
+</body>
+</html>
