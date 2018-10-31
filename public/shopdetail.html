@@ -10,70 +10,176 @@
     <title>小米商城--商品详情</title>
 </head>
 <body>
-        <header id="header"></header>
-        <div class="content-detail">
-            <div class="title-top">
-                <div class="top_title_detail">
-                    <h2 class="title_youth">小米8青春版</h2>
-                    <div class="title_rigth">
-                        <ul>
-                            <li data-target="#Summary">
-                                <a href="http://127.0.0.1:3000/mi8_Youth.html" class="font_color">概述 <span> |</span></a>
+    <header id="header"></header>
+    <div class="content-detail">
+        <div class="title-top">
+            <div class="top_title_detail">
+                <h2 class="title_youth">小米8青春版</h2>
+                <div class="title_rigth">
+                    <ul>
+                        <li data-target="#Summary">
+                            <a href="http://127.0.0.1:3000/mi8_Youth.html" class="font_color">概述 <span> |</span></a>
+                        </li>
+                        <li data-target="#gallery">
+                            <a href="http://127.0.0.1:3000/mi8_Youth.html">图集 <span>|</span></a>
+                        </li>
+                        <li data-target="#specs">
+                            <a href="http://127.0.0.1:3000/mi8_Youth.html">参数 <span> |</span></a>
+                        </li>
+                        <li data-target="#F_code">
+                            <a href="http://127.0.0.1:3000/mi8_Youth.html">F码通道 <span> | </span></a>
+                        </li>
+                        <li data-target="#Reviewarea">
+                            <a href="http://127.0.0.1:3000/mi8_Youth.html">用户评价</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--未登录提示--->
+        <div class="alert-login">
+        为方便您购买，请提前登录
+        <a href="http://127.0.0.1:3000/login.html">立即登录</a>
+        <span>X</span>
+        </div>
+        <!--商品详情-->
+        <div class="box clearfix">
+            <div class="pro-choose-main">
+                <!--轮播图-->
+            <div class="pro-view">
+                <div id="container_img">
+                    <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pm-deatil2.jpg"/></a>
+                    <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pm-deatil1.jpg"/></a>
+                    <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pm-deatil2.jpg"/></a>
+                    <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pm-deatil3.jpg"/></a>
+                    <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pms-detail4.jpg"/></a>
+                
+                    <div class="btn prev">&lt;</div>
+                    <div class="btn next">&gt;</div>
+                
+                    <ul id="tabs">
+                        <li class="tab active"></li>
+                        <li class="tab"></li>
+                        <li class="tab"></li>
+                        <li class="tab"></li>
+                        <li class="tab"></li>
+                    </ul>
+                </div> 
+            </div>
+            <!---规格参数信息-->
+            <div class="pro-info">
+                <h3 class="pro-title">小米8 青春版</h3>
+                <!--提示-->
+                <p class="sale-desc">
+                    <span style="color: #f25807">「新品现货在售」</span>
+                    潮流镜面渐变色 / 2400万自拍旗舰 / 7.5mm超薄机身 / 6.26"小刘海全面屏 / AI裸妆美颜 / 骁龙660AIE处理器
+                </p>
+                <p class="aftersale font_color">小米自营</p>
+                <!--价格-->
+                <div class="pro-price">
+                    <span>1399元</span>
+                </div>
+                <!---赠品-->
+                <div class="flow-wrap">
+                <ul>  
+                    <li>
+                        <span class="flow-tag">赠品</span> <span class="flow-name">赠米粉卡，内含100元话费</span> 
+                    </li> 
+                </ul>
+                </div>
+                <!---地址-->
+                <div class="J_main">
+                    <!--分仓地址-->
+                    <div class="address-wrap">
+                        <img src="http://127.0.0.1:3000/img/dingwei.png" alt="" class="icon-img">
+                        <div class="user-default-address">
+                            <span class="ml5">山东</span>
+                            <span>济南市</span>
+                            <span>历下区</span>
+                            <span>姚家街道</span>
+                                <!--修改按钮-->
+                            <span id="modify">修改</span>
+                            <p class="font_color ml5">有现货</p>
+                        </div>
+                            <!--商品规格-->
+                        <div class="space-title">
+                            选择版本
+                        </div>
+                        <ul class="step-list clearfix">
+                            <li class="ml0 step-list-border">
+                                <a href="#">
+                                    <span class="name step-list-active">4GB+64GB 全网通</span>
+                                    <span class="price">1399元</span>
+                                </a>
                             </li>
-                            <li data-target="#gallery">
-                                <a href="http://127.0.0.1:3000/mi8_Youth.html">图集 <span>|</span></a>
-                            </li>
-                            <li data-target="#specs">
-                                <a href="http://127.0.0.1:3000/mi8_Youth.html">参数 <span> |</span></a>
-                            </li>
-                            <li data-target="#F_code">
-                                <a href="http://127.0.0.1:3000/mi8_Youth.html">F码通道 <span> | </span></a>
-                            </li>
-                            <li data-target="#Reviewarea">
-                                <a href="http://127.0.0.1:3000/mi8_Youth.html">用户评价</a>
-                            </li>
+                            <li>
+                            <a href="#">
+                                <span class="name">4GB+64GB 全网通</span>
+                                <span class="price">1399元</span>
+                            </a>
+                        </li>
+                        <li class="ml0">
+                            <a href="#">
+                                <span class="name">4GB+64GB 全网通</span>
+                                <span class="price">1399元</span>
+                            </a>
+                        </li>
                         </ul>
+                    </div>
+                    <!--选择颜色-->
+                    <div class="space-title">选择颜色</div>
+                    <div class="step-color clearfix">
+                        <ul class="my_display">
+                            <li class="ml0 step-list-border">
+                                <a href="#" class="font_color">
+                                <img src="http://127.0.0.1:3000/img/pm-deatil2.jpg" alt="" class="step-color-img">深灰版
+                                </a>
+                            </li> 
+                        </ul>
+                        <ul class="my_display">
+                            <li class="ml0 step-list-border">
+                                <a href="#" class="font_color">
+                                    <img src="http://127.0.0.1:3000/img/pm-deatil2.jpg" alt="" class="step-color-img">深灰版
+                                </a>
+                            </li> 
+                            <li class="">
+                                <a href="#" class="font_color">
+                                    <img src="http://127.0.0.1:3000/img/pm-deatil2.jpg" alt="" class="step-color-img">深灰版
+                                </a>
+                            </li>
+                            <li class="ml0">
+                                <a href="#" class="font_color">
+                                    <img src="http://127.0.0.1:3000/img/pm-deatil2.jpg" alt="" class="step-color-img">深灰版
+                                </a>
+                            </li>  
+                        </ul>
+                        <ul class="">
+                            <li class="ml0 step-list-border">
+                                <a href="#" class="font_color">
+                                    <img src="http://127.0.0.1:3000/img/pm-deatil2.jpg" alt="" class="step-color-img">深灰版
+                                </a>
+                            </li> 
+                            <li class="">
+                                <a href="#" class="font_color">
+                                    <img src="http://127.0.0.1:3000/img/pm-deatil2.jpg" alt="" class="step-color-img">深灰版
+                                </a>
+                            </li>
+                            <li class="ml0">
+                                <a href="#" class="font_color">
+                                    <img src="http://127.0.0.1:3000/img/pm-deatil2.jpg" alt="" class="step-color-img">深灰版
+                                </a>
+                            </li>  
+                        </ul>
+                    </div>
+                    <div class="space-title">
+                        选择小米提供的延长保修
+                        <a href="#" class="liaojie">了解延长保修 &gt;</a>
                     </div>
                 </div>
             </div>
-            <!--未登录提示--->
-                <div class="alert-login">
-                为方便您购买，请提前登录
-                <a href="http://127.0.0.1:3000/login.html">立即登录</a>
-                <span>X</span>
-                </div>
-                <!--商品详情-->
-                <div class="box clearfix">
-                    <div class="pro-choose-main">
-                        <!--轮播图-->
-                    <div class="pro-view">
-                        <div id="container_img">
-                            <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pm-deatil2.jpg"/></a>
-                            <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pm-deatil1.jpg"/></a>
-                            <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pm-deatil2.jpg"/></a>
-                            <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pm-deatil3.jpg"/></a>
-                            <a class="item" href="#"><img src="http://127.0.0.1:3000/img/pms-detail4.jpg"/></a>
-                        
-                            <div class="btn prev">&lt;</div>
-                            <div class="btn next">&gt;</div>
-                        
-                            <ul id="tabs">
-                                <li class="tab active"></li>
-                                <li class="tab"></li>
-                                <li class="tab"></li>
-                                <li class="tab"></li>
-                                <li class="tab"></li>
-                            </ul>
-                        </div> 
-                    </div>
-                    <!---规格参数信息-->
-                    <div class="pro-info">
-                        
-                    </div>
-                    </div>
-                </div>
+          </div>
         </div>
-
+    </div>
     <script src="js/header.js"></script>
     <footer id="footer"></footer>
     <script src="js/footer.js"></script>
