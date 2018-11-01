@@ -1039,48 +1039,130 @@
     margin-left: -45px;
     margin-top: -45px;
 }
-/*
- <div class="video_play my_display">
-        <!--雷总-->
-        <div class="my_video my_display" id="leizong">
-            <div class="my_video_title">
-                <h3>一团火</h3>
-                <a href="javascript:"  class="my_close">×</a>
-            </div>
-            <div style="background:#000">
-                    <video id="v3" src="http://127.0.0.1:3000/video/yiyuanhuo.mp4" controls  poster="http://127.0.0.1:3000/img/xmad__cthgC.jpg"  preload="auto"></video>
-            </div>
-        </div>
-        <!--小米8-->
-        <div class="my_video my_display" id="xiaomishouji8">
-                <div class="my_video_title">
-                    <h3>小米8，一部与众不同的手机</h3>
-                    <a href="javascript:" class="my_close">×</a>
-                </div>
-               <div style="background:#000">
-                    <video id="v3" src="http://127.0.0.1:3000/video/xiaomi8.mp4" controls="false"  poster="http://127.0.0.1:3000/img/xmad_fr.jpg"  preload="auto"></video>
-               </div>
-             
-        </div>
-        <!--小米 2S-->
-        <div class="my_video my_display" id="xiaomishouji2max">
-                <div class="my_video_title">
-                    <h3>小米MIX 2S，一面科技 一面艺术</h3>
-                    <a href="javascript:"  class="my_close">×</a>
-                </div>
-               <div style="background:#000">
-                    <video id="v3" src="http://127.0.0.1:3000/video/xiaomiMax2s.mp4" controls   poster="http://127.0.0.1:3000/img/xmad2.jpg"  preload="auto"></video>
-               </div>
-        </div>
-        <div class="my_video my_display" id="xiaoaitongxue">
-                <div class="my_video_title">
-                    <h3>生活中无所不在的小爱同学</h3>
-                    <a href="javascript:"  class="my_close">×</a>
-                </div>
-               <div style="background:#000">
-                    <video id="v3" src="http://127.0.0.1:3000/video/xiaoaitongxue.mp4" controls   poster="http://127.0.0.1:3000/img/xmad_LDHfI.jpg"  preload="auto"></video>
-               </div>
-        </div>
-    </div> 
+/**抢购样式**/
+.xm-flashPurchase-countdown {
+    float: left;
+    _display: inline;
+    width: 234px;
+    height: 340px;
+    margin: 0 0 0 0;
+    padding: 0;
+    background-color: #f1eded;
+    text-align: center;
+}
+.xm-flashPurchase-countdown p.time-title {
+    font-size: 21px;
+    color: #ef3a3b;
+    padding-top: 45px;
+}
+.xm-flashPurchase-countdown img {
+    margin: 25px auto;
+}
+.xm-flashPurchase-countdown .sub {
+    color: rgba(0,0,0,0.54);
+    font-size: 15px;
+}
+.xm-flashPurchase-countdown .countdown {
+    width: 168px;
+    margin: 28px auto 0;
+}
+.xm-flashPurchase-countdown .countdown span.box {
+    width: 46px;
+    height: 46px;
+    font-size: 24px;
+    background-color: #605751;
+    color: #fff;
+    line-height: 46px;
+}
+.xm-flashPurchase-countdown .countdown span.dosh {
+    width: 15px;
+    height: 46px;
+    line-height: 46px;
+    color: #605751;
+    font-size: 28px;
+}
+/*右侧固定登录**/
+.right-bar{
+    width: 84px;
+    height: 471px;
+    position: fixed;
+    bottom: 70px;
+    top: 50%;
+    margin-top: -100px;
+    right: 0;
+    z-index: 40;
+}
+.J_rightbar_l{
+    width: 84px;
+    height: 471px;
+    
+}
+.bar-top{
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #f5f5f5;
+}
+.bar-sort{
+    position: relative;
+    display: block;
+    width: 82px;
+    height: 90px;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    border-top: none;
+}
+.bar-link{
+    display: block;
+    height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+.bar-img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    margin: 0 0 0 27px
+}
+.bar-img img{
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.bar-text{
+    margin: 8px 0 0 0;
+    color: #757575;
+    font-size: 14px;
+    text-align: center;
+}
+/*二维码*/
+.bar-pop {
+    position: absolute;
+    left: -137px;
+    top: 0;
+    height: 187px;
+    z-index: 80;
+    background: #fff;
+}
+.home-right-bar .bar-pop .bar-pop-content {
+    float: left;
+    height: 187px;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+}
+.bar-pop-qr {
+    width: 100px;
+    height: 100px;
+    margin: 20px 14px;
+    background: #fff;
+    border: 0;
+}
+.bar-pop-text {
+    width: 83px;
+    margin: -10px auto 0;
+    color: #757575;
+    font-size: 14px;
+    text-align: center;
+}
 
-*/
