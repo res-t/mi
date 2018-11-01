@@ -68,3 +68,32 @@ $(document).ready(function(){
  }
    
  });
+ /**鼠标事件 */
+   window.onscroll = function(){
+  // console.log(window.scrollTop);
+  var docScroll = document.documentElement.scrollTop;
+  //console.log(docScroll);
+  var lunboOffset = lunbo.offsetTop+560;
+  var boxOffset =box.offsetTop+1200;
+  //console.log(window.innerHeight)
+  //console.log(docScroll,lunboOffset)
+  if(docScroll>=lunboOffset/2){
+    container_img.className="container_img";
+    titletop.className = "title-top2"
+  }else{
+    container_img.classList.remove("container_img")
+    titletop.classList.remove("title-top2")
+    titletop.className = "title-top"
+  }
+ if(docScroll>=boxOffset*2-1580){
+    //box.className="my_display" 、
+    container_img.classList.remove("container_img")
+    container_img.className="container_img2"
+  }
+}
+/***alert-close */
+$('.alert-close').click(function(){
+    var span = $(this);
+   $('.alert-login').addClass("my_display")
+})
+
