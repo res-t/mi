@@ -197,3 +197,49 @@ for(var i =0;i<document.querySelectorAll("a[class='my_close']").length;i++){
     window.location.reload();
 }
 }
+/****抢购 */
+$(()=>{
+  setInterval(function () {
+    var date = new Date;
+    // console.log(date.getHours())
+    var nowHour = parseInt(date.getHours())
+    // console.log(nowHour)
+    var targetTime = nowHour +1
+    // console.log(targetTime)
+    $(".time-title").html(`${targetTime}:00场`)
+    var nowMinutes = date.getMinutes()
+    var minutes = 60-nowMinutes-1
+    // console.log(60-nowMinutes-1)
+    if(minutes<10){
+      $(".minutes").html(`0${minutes}`)
+    }else{
+      $(".minutes").html(`${minutes}`)
+    }
+    var nowSeconds = date.getSeconds()
+    var seconds = 60-nowSeconds-1
+    if(seconds<10){
+      $(".seconds").html(`0${seconds}`)
+    }else{
+      $(".seconds").html(`${seconds}`)
+    }
+  },1000);
+})
+
+/**返回的顶部鼠标悬停效果 */
+$('.bar-sort').hover(function(){
+     var li =$(this);
+     li.children().children().children().toggleClass("my_display")
+})
+/**显示隐藏---滚动条事件*/
+window.onscroll = function(){
+  
+   var docScroll = document.documentElement.scrollTop;
+   console.log(docScroll,window.innerHeight);
+    if(docScroll>window.innerHeight*2){
+        console.log(12323);
+        toptop.classList.remove("my_display")
+    }else{
+      toptop.className="my_display bar-sort"
+    }
+   
+}
