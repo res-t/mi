@@ -4,14 +4,12 @@ body {
 }
 .content{
     width: 100%;
-    height: 2000px;
-    border: 1px solid red;
+    height:7500px;
     background: #f5f5f5
 }
 .nav-top{
     width: 1226px;
     height:40px;
-    border: 1px solid red;
     margin: 0 auto;
     line-height: 2;
     font-size: 12px;
@@ -23,7 +21,6 @@ body {
 .product-detail{
     width: 1226px;
     height: 550px;
-    border: 1px solid red;
     margin: 0 auto;
     background: #fff;
     padding-top: 40px;
@@ -32,7 +29,6 @@ body {
 .goods-pic-box{
     width: 792px;
     height:550px;
-    border: 1px solid green;
     float: left;
     position: relative;
 }
@@ -40,7 +36,6 @@ body {
     width: 420px;
     height: 550px;
     float: left;
-    border: 1px solid black
 }
 .goods-big-pic{
     user-select: none;
@@ -75,7 +70,6 @@ body {
 .goodsInfoBlock{
     width: 420px;
     height:457px ;
-    border: 1px solid red;
 }
 .goods-name{
     color: #333;
@@ -169,7 +163,6 @@ body {
 .goods-info-head-cart{
     width: 420px;
     height: 50px;
-    border: 1px solid;
 }
 
 li{
@@ -186,6 +179,7 @@ li{
     background: #f25807;
     float: left;
     margin-right: 10px;
+    cursor: pointer;
 }
 .btn-mai>li:first-child>a,.btn-mai>li:last-child>a{
     color: #fff;
@@ -199,6 +193,7 @@ li{
     font-size: 16px;
     text-align: center;
     color: #fff;
+    cursor: pointer;
 }
 .next-xieyi{
     float: left;
@@ -241,5 +236,296 @@ li{
     height: 20px;
     cursor: pointer;
     margin-top: 0px;
-    border-right: 1px solid #616661;
+    border-right: 1px solid #9c9e9c;
+}
+.goods-info-head-userfaq>ul>li>a,.more>a{
+    color: #757575;
+}
+.goods-info-head-userfaq>ul>li>a:hover,.more>a:hover{
+    color: #f25807;
+}
+/*goods-detail-nav**/
+.goods-detail{
+    width: 100%;
+    height: 4800px;
+}
+.goods-detail-nav{
+    width: 1226px;
+    height: 60px;
+    margin: 0 auto;
+}
+.nav-list{
+    width: 680px;
+    margin: 0 auto;
+    list-style-type: none;
+    height: 60px;
+    text-align: center;
+}
+.nav-list>li{
+    width: 168px;
+    height: 40px;
+    padding-top: 20px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #424242;
+    float: left;
+    border-right:  1px solid #9c9e9c;
+}
+.nav-list>li>a{
+    color: #757575;
+}
+.nav-list>li>a:hover{
+    color: #f25807;
+}
+.a-active{
+    color: #ff6700 !important;
+}
+/********/
+.godds-img-detail{
+    width: 1226px;
+    height: 844px;
+    margin: 0 auto;
+}
+.goods-img-price{
+    width: 1226px;
+    height: 778px;
+    margin: 0 auto;
+}
+.goods-img-xingjiabi{
+    width: 1226px;
+    height:792px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.goods-img-shiyong{
+    width: 1226px;
+    height: 990px;
+    margin: 0 auto;
+}
+.goods-img-zhiliang{
+    width: 1226px;
+    height: 563px;
+    margin: 0 auto;
+}
+.goods-img-zhuyi{
+    width: 1226px;
+    height: 611px;
+    margin: 0 auto;
+}
+.goods-img-lianxi{
+    width: 1226px;
+    height: 160px;
+    margin: 0 auto;
+}
+.lian-img{
+    width: 1226px;
+    height: 160px;
+}
+/******pinglun*****/
+.nav-title-p{
+    width: 1226px;
+    height: 80px;
+    margin: 0 auto;
+    line-height: 2;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: #b0b0b0;
+    background-color: #f5f5f5;
+}
+.pinglunqu{
+    width: 1226px;
+    height: 3000px;
+    margin: 0 auto;
+    position: relative;
+}
+.Review-content{
+    width: 792px;
+    height: 926px;
+    list-style: none;
+    position: relative;
+    background: #fff;
+    float: left;
+}
+.portrait{
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.comment-kuai{
+    width: 649px;
+    height: 900px;
+    position: absolute;
+    left: 100px;
+    top:40px;
+    font-size: 18px;
+}
+.my_comment_top{
+    width: 649px;
+    height: 44px;
+    margin-bottom: 10px;
+}
+.userName{
+    display: inline-block;
+
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #8d665a;
+}
+.fabiao_time{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #b0b0b0;
+    margin: 0;
+}
+.weixiao{
+    width: 26px;
+    height: 30px;
+    vertical-align: middle;
+}
+.chaozan{
+    position: absolute;
+    right: 0;
+    top:0;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #ff7b33
+}
+.comment-txt{
+    color: #616161;
+}
+.comment-txt_img{
+    width: 649px;
+    height: 168px;
+    display: flex;
+    margin-top: 10px;
+}
+.comment-txt_img>img{
+    width: 160px;
+    height: 160px;
+    object-fit: fill;
+    margin-left: 5px;
+}
+.heard_dian{
+    width: 649px;
+    height: 33px;
+
+    margin-top: 10px;
+}
+.heard_dian>a>img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle
+}
+.diancishu{
+    font-size: 14px;
+    color: #757575
+}
+.comment_input{
+    height: 43px;
+    width: 520px;
+    padding: 10px 0 10px 20px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+    outline: none;
+    color: #b0b0b0;
+    border: 1px solid #e0e0e0;
+}
+.huifu{
+    width: 100px;
+    height: 43px;
+    line-height: 43px;
+    position: absolute;
+    right: 0;
+    top: 329px;
+    margin-right: 7px;
+    z-index: 10;
+    border: none;
+    color: #757575;
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    transition: all .2s ease-out;
+    font-size: 14px;
+    text-align: center;
+}
+.comment-anwser{
+    width: 649px;
+    height: 80px;
+    margin-top: 40px;
+    position: relative;
+}
+.answer-img{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 5px;
+}
+.official-name{
+    margin-bottom: 3px;
+    font-size: 14px;
+
+    color: #ff6700;
+    font-weight: normal;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.answer-p{
+    color: #616161;
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.xiaoshou{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle
+}
+.now-pingjia{
+    width: 400px;
+    height: 959px;
+    float: left;
+    position: absolute;
+    top:0;
+    right: 0;
+    background: #fff;
+}
+
+.now-pingjia>ul>li{
+    position: relative;
+    width: 390px;
+    height: 120px;
+    background: #f5f5f5;
+    margin-left: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b0b0b0;
+}
+ .time{
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 20px;
+    font-weight: normal;
+}
+.pinglun-content{
+    color:#333;
+}
+.pinglun-content:hover{
+   color: #f25807;
+}
+.yonghu> .left{
+   display: inline-block;
+   float: left;
+}
+.yonghu> .right{
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
 }
