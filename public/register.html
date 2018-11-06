@@ -133,7 +133,29 @@
          
            
      })
-   
+        //国家
+       $("#Country").mousedown(function(){
+        $('.Country_detail').removeClass("my_display")
+       })
+       $('.xiala_btn').mousedown(function(){
+        $('.Country_detail').removeClass("my_display")
+       })
+     $(".Country_list>li").click(function(){
+         var li =$(this);
+           $('#Country').val(li.text())
+           $('.Country_detail').addClass("my_display")
+     })
+     //s手机号
+     $('.phone_number').click(function(){
+         $('.phone_num').removeClass('my_display')
+     })
+     $(".phone_list>li").mousedown(function(){
+         var li =$(this);
+         li.parent().parent().addClass("my_display")
+           $('.phone_number>span').text(li.children("span").text());
+         
+           
+     })
     </script>
 </body>
 </html>
