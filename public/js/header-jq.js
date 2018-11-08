@@ -31,8 +31,51 @@
     )
    
   /*购物车**/
-  $('.topbar-nav_right>ul>li:last-child').mouseenter(
-         function(){
+   $(".car_mini").mouseenter(function(){
+       var li = $(this);
+       li.children().toggleClass("my_display")
+       $(".car_mini").addClass("my_wirte_a")
+       $(".my_shopp_car").removeClass("my_display");
+       console.log(45565);
+   }).parent().mouseleave(function(){
+        $(".my_shopp_car").addClass("my_display");
+        $(".car_mini").children().toggleClass("my_display");
+        $(".car_mini").removeClass("my_wirte_a")
+   })
+
+
+
+
+ /*搜索图标*/
+ $('.d1').mouseenter(function(){
+     $(".search.icon").css("color","#fff")
+ }).mouseleave(function(){
+     $(".search.icon").css("color","#000")
+ })
+
+
+
+$(".login").mouseenter(function(){
+     var li =$(this);
+     li.children("div").removeClass("my_display")
+     $(".login").addClass("my_wirte").children("a").addClass("my_wirte_a")
+     
+}).mouseleave(function(){
+    var li =$(this);
+    $(".login").removeClass("my_wirte").children("a").removeClass("my_wirte_a")
+    $(".islogin").addClass("my_display")
+})
+
+
+/* var welcome = document.getElementById('name');
+var uname  = sessionStorage.getItem('uname');
+if(uname){
+    var html = `${uname}`;
+   welcome.innerHTML=html;
+}*/
+/**
+ * 
+ *  $('.topbar-nav_right>ul>li:last-child').mouseenter(function(){
         var a=$(this)
         $('.topbar-nav_right>ul>li:last-child>a').css('background','white')
         .css('color','orange')
@@ -50,15 +93,5 @@
      .css('color','#b0b0b0')
      console.log(1);
  })
- /*搜索图标*/
- $('.d1').mouseenter(function(){
-     $(".search.icon").css("color","#fff")
- }).mouseleave(function(){
-     $(".search.icon").css("color","#000")
- })
-/* var welcome = document.getElementById('name');
-var uname  = sessionStorage.getItem('uname');
-if(uname){
-    var html = `${uname}`;
-   welcome.innerHTML=html;
-}*/
+ * 
+ */
