@@ -322,3 +322,53 @@ input{
             outline: none;
             
     }
+
+
+    /**登录状态**/
+    #name{
+        display: block;
+        width: 120px !important;
+        height: 40px;
+        text-align: center;
+    }
+    .zhuce{
+        display: inline-block;
+        width: 68px;
+        height: 40px;
+        text-align: center;
+    }
+    .tongzhi{
+        display: inline-block;
+        width: 68px;
+        height: 40px;
+        text-align: center;
+    }
+    .login{
+        position: relative;
+    }
+    .islogin{
+       width: 120px;
+       height: 164px;
+       position: absolute;
+       z-index: 10;
+       background: #fff;
+    }
+    .islogin>ul>li{
+        list-style: none;
+        text-align: center;
+        width: 120px;
+        height: 30px;
+    }
+    .islogin>ul>li>a{
+        font-size: 12px;
+        color: #b0b0b0;
+    }
+    .islogin>ul>li>a:hover{
+        color: #FF6B00;
+    }
+    .my_wirte{
+       background: #fff;
+    }
+    .my_wirte_a{
+        color: #FF6B00 !important;
+    }
